@@ -1,0 +1,72 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+body {
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    background: #4b2da3;
+    width: 500px;
+    height: 500px;
+    padding: 24px;
+    border-radius: 16px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+.container h1 {
+    margin-bottom: 16px;
+}
+.input {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}   
+.input input {
+    width: 100%;
+    padding: 10px 16px 10px 38px;
+    border-radius: 99px;
+    border: solid 3px transparent;
+    outline: none;
+    font-weight: 500;
+}
+.btn {
+    width: 100%;
+    margin-top: 24px;
+    padding: 10px 0;
+    background: #fff;
+    border: none;
+    border-radius: 99px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.register {
+    font-weight: normal;
+    margin-top: 12px;
+}
+.register a {
+    text-decoration: none;
+    color: white;
+}
+.forgotpassword {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+    justify-content: space-between;
+
+}
+.forgotpassword a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+main {
+    flex: 1;
+    padding: 20px;
+    background: #121212;
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr 1fr; /* Two columns for content */
+    gap: 20px; /* Spacing between items */
+}
+
+.linechart img, .information img {
+    width: 440px; /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper layout */
+    border-radius: 4px; /* Optional styling */
+}
+
+/* Optional: Adjust margins for linechart and information to align them properly */
+.linechart, .information {
+    display: flex;
+    justify-content: start; /* Align content to the left */
+    align-items: center;
+}
+
+/* Adjust other sections for layout consistency */
+.imgs img, .images img {
+    width: 900px; /* Match the welcome section width */
+    height: auto;
+    border-radius: 4px;
+}
+
+.welcome h3 {
+    grid-column: span 2;
+    background: #333;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 28px;
+    width: auto; /* Adjust width to fit the grid */
+}

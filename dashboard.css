@@ -1,0 +1,99 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets a clean, modern font for all elements */
+}
+body {
+    margin: 0; /* Removes default margin from the body */
+    background-color: #1a1a1a; /* Sets a dark background color */
+    color: #fff; /* Ensures text color is white for contrast */
+}
+.dashboard {
+    display: flex; /* Enables a horizontal layout for the dashboard */
+    height: 1000px; /* Sets a fixed height for the dashboard */
+}
+.sidebar {
+    width: 250px; /* Sets the width of the sidebar */
+    padding: 20px; /* Adds padding inside the sidebar for spacing */
+    background: #2b2b2b; /* Sets a slightly lighter dark background for the sidebar */
+}
+.sidebar h2 {
+    color: #fff; /* Ensures the sidebar title text is white */
+    margin-bottom: 20px; /* Adds space below the title */
+}
+.sidebar nav a {
+    display: block; /* Makes each link take up full width */
+    color: #aaa; /* Sets link color to light gray */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 0; /* Adds vertical padding inside links */
+    margin-bottom: 10px; /* Adds space between links */
+    border-radius: 4px; /* Rounds corners of link backgrounds */
+}
+.sidebar nav a.active, .sidebar nav a:hover {
+    background: #6200ea; /* Changes background color for active/hovered links */
+    color: #fff; /* Changes link text color to white for better visibility */
+}
+main {
+    flex: 1; /* Allows main content to fill remaining horizontal space */
+    padding: 20px; /* Adds padding inside the main content area */
+    background: #121212; /* Sets a dark background for the main area */
+}
+header {
+    display: flex; /* Aligns header content horizontally */
+    justify-content: space-between; /* Spaces items across the header */
+    align-items: center; /* Vertically aligns header items */
+    margin-bottom: 20px; /* Adds space below the header */
+}
+header .searchbar {
+    float: right; /* Aligns the search bar to the right */
+    margin-left: 1250px; /* Adds space from the left (possibly redundant with `float`) */
+    margin-top: -60px; /* Adjusts vertical positioning */
+}
+header .searchbar input {
+    padding: 10px; /* Adds padding inside the input field */
+    border-radius: 10px; /* Rounds the input field corners */
+    margin-right: 10px; /* Adds space between input and other elements */
+}
+header .user img {
+    width: 40px; /* Sets width of the user avatar */
+    height: 40px; /* Sets height of the user avatar */
+    border-radius: 50%; /* Makes the avatar a perfect circle */
+}
+.welcome {
+    display: grid; /* Arranges the welcome section in a grid layout */
+    grid-template-columns: 2fr 1fr; /* Defines two columns, the first twice as wide as the second */
+    gap: 20px; /* Adds space between grid items */
+}
+.welcome h3 {
+    grid-column: span 2; /* Makes the heading span both columns */
+    background: #333; /* Sets a medium-dark background for the heading */
+    padding: 20px; /* Adds padding inside the heading */
+    border-radius: 4px; /* Rounds the corners of the heading background */
+    text-align: left; /* Aligns text to the left */
+    font-size: 28px; /* Increases font size for visibility */
+    width: 900px; /* Fixes the heading width */
+
+    /* CSS for Slidebar */
+
+    
+}
+.imgs img {
+    width: 940px; /* Sets width of the image */
+    height: 450px; /* Sets height of the image */
+}
+.images img {
+    width: 940px; /* Sets width of smaller images */
+    height: 200px; /* Sets height of smaller images */
+}
+.linechart img {
+    float: right; /* Positions the chart image to the right */
+    margin-top: -765px; /* Adjusts vertical positioning */
+    width: 500px; /* Sets the chart width */
+    margin-right: 50px; /* Adds space to the right of the chart */
+}
+.information img {
+    float: right; /* Positions the information image to the right */
+    margin-top: -350px; /* Adjusts vertical positioning */
+    margin-right: 50px; /* Adds space to the right of the image */
+    width: 500px; /* Sets the image width */
+    height: 350px; /* Sets the image height */
+}
+
